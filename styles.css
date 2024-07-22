@@ -1,0 +1,112 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            margin-top: 50px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .container button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .container button:hover {
+            background-color: #0056b3;
+        }
+
+        .thumbnail {
+            margin-top: 20px;
+        }
+
+        .thumbnail img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+
+        .thumbnail .thumbnail-details {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .thumbnail .thumbnail-details span {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .thumbnail .thumbnail-details .download-button {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 0.9em;
+            color: #fff;
+            background-color: #28a745;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .thumbnail .thumbnail-details .download-button:hover {
+            background-color: #218838;
+        }
+
+        .faq-section {
+            margin-top: 50px;
+            text-align: left;
+        }
+
+        .faq-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .faq-section .faq {
+            margin-bottom: 20px;
+        }
+
+        .faq-section .faq h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .faq-section .faq p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
